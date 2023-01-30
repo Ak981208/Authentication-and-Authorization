@@ -13,12 +13,14 @@ while(true){
 System.out.print("Enter  RoleName:");
 
 roleName= scan.nextLine();
-
+Permissions p1=new Permissions();
 
 
 System.out.print("Enter  Role-Id:");
 
 roleId=scan.nextInt();
+System.out.println("please assign the permissions to" +" " +roleName);
+p1.showAllPermissions();
 
 scan.nextLine();
 
